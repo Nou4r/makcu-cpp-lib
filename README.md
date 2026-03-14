@@ -43,6 +43,33 @@ makcu-cpp-lib/
 │   └── makcu_cli.cpp         # Interactive CLI
 ```
 
+## Building in Visual Studio
+
+The repository now includes CMake files that Visual Studio 2022 can open directly.
+
+### Option 1: Open the folder in Visual Studio
+
+1. Open Visual Studio 2022.
+2. Choose **File > Open > Folder**.
+3. Select the `makcu-cpp-lib` folder.
+4. Visual Studio will detect `CMakeLists.txt` and configure the project automatically.
+5. Pick a build preset such as `vs2022-x64-debug` or `vs2022-x64-release`.
+6. Build from **Build > Build All**.
+
+### Option 2: Generate/build from a Developer Command Prompt
+
+```powershell
+cmake --preset vs2022-x64
+cmake --build --preset vs2022-x64-debug
+```
+
+This builds:
+
+- `makcu_cpp_lib` - static library
+- `makcu_example` - basic example app
+- `makcu_cli` - interactive CLI
+- `makcu_keypad8_circles` - keypad-controlled circle movement tool
+
 ## Usage
 
 ### Quick Start
@@ -185,6 +212,17 @@ Scrolling: 5
 makcu> quit
 Exiting...
 ```
+
+## Keypad Circle Tool
+
+The `makcu_keypad8_circles` example connects to the MAKCU device and moves the mouse in circles while `NumPad 8` is held down.
+
+```bash
+makcu_keypad8_circles.exe
+```
+
+- Hold `NumPad 8` to start circular movement
+- Press `Esc` to exit
 
 ## License
 

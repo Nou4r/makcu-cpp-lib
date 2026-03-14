@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\src\Mouse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\src\SerialTransport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\include\makcu\enums.h">
+      <Filter>include\makcu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\include\makcu\errors.h">
+      <Filter>include\makcu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\include\makcu\Mouse.h">
+      <Filter>include\makcu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\include\makcu\SerialTransport.h">
+      <Filter>include\makcu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\include\makcu\version.h">
+      <Filter>include\makcu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\include\makcu\makcu.h">
+      <Filter>include\makcu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\makcu-cpp-lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{AB448497-A74C-330A-A8DE-086B4097E0CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\makcu">
+      <UniqueIdentifier>{2C198C18-6CE0-3034-96CC-A60983BA933E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8A09B0CC-37AD-3D65-958A-C35B5E9306EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+C:/Users/Administrator/Documents/GitHub/makcu-cpp-lib/build/vs2022-x64/CMakeFiles/makcu_cpp_lib.dir
+C:/Users/Administrator/Documents/GitHub/makcu-cpp-lib/build/vs2022-x64/CMakeFiles/makcu_example.dir
+C:/Users/Administrator/Documents/GitHub/makcu-cpp-lib/build/vs2022-x64/CMakeFiles/makcu_cli.dir
+C:/Users/Administrator/Documents/GitHub/makcu-cpp-lib/build/vs2022-x64/CMakeFiles/makcu_keypad8_circles.dir
+C:/Users/Administrator/Documents/GitHub/makcu-cpp-lib/build/vs2022-x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Documents/GitHub/makcu-cpp-lib/build/vs2022-x64/CMakeFiles/ZERO_CHECK.dir
